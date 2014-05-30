@@ -10,6 +10,23 @@ $ cd node-regex-parser
 $ npm install
 ```
 
+## Example
+```js
+var RegExpParser = require("regex-parser");
+console.log(RegExpParser.parse("/some words/gi"));
+```
+
+## Methods
+
+## `parse(input)`
+Parses a string input
+
+### Params:
+* **String** `input` the string input that should be parsed as regular
+
+### Return:
+* **RegExp** The parsed regular expression
+
 ## How to contribute
 
 1. File an issue in the repository, using the bug tracker, describing the
