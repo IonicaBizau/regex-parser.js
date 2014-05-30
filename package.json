@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-regex-parser/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-regex-parser"
+  "homepage": "https://github.com/IonicaBizau/node-regex-parser",
+  "directories": {
+    "test": "test"
+  }
 }
