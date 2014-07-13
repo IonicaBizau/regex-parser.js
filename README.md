@@ -27,6 +27,14 @@ Parses a string input
 ### Return:
 * **RegExp** The parsed regular expression
 
+## Changelog
+
+### `v0.2.0`
+ - Changed package name into `regexp-parser`.
+
+### `v0.1.0`
+ - Initial release
+
 ## How to contribute
 
 1. File an issue in the repository, using the bug tracker, describing the
