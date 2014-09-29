@@ -1,8 +1,7 @@
-# node-regex-parser
-A small module that parses a string as regular expression and returns the parsed RegExp
+![RegEx Parser](http://i.imgur.com/rfXVsKw.png)
 
 ## Installation
-Run the following commands to download and install the application:
+Run the following commands to download and install the module:
 
 ```sh
 $ git clone git@github.com:IonicaBizau/node-regex-parser.git node-regex-parser
@@ -10,15 +9,18 @@ $ cd node-regex-parser
 $ npm install
 ```
 
+## Running tests
+To run tests, do `npm test`.
+
 ## Example
 ```js
-var RegExpParser = require("regex-parser");
-console.log(RegExpParser.parse("/some words/gi"));
+var RegexParser = require("regex-parser");
+console.log(RegexParser("/some words/gi")); // => /some words/gi
 ```
 
 ## Methods
 
-## `parse(input)`
+## `module.exports = RegexParser`
 Parses a string input
 
 ### Params:
@@ -28,6 +30,12 @@ Parses a string input
 * **RegExp** The parsed regular expression
 
 ## Changelog
+
+### `1.0.0`
+ - More stable algorithm
+ - Added tests
+ - Starting with this version, `parse` method is removed. The module exports a
+   function.
 
 ### `v0.2.0`
  - Changed package name into `regexp-parser`.

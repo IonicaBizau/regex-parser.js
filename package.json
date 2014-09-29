@@ -1,10 +1,10 @@
 {
   "name": "regex-parser",
-  "version": "0.2.0",
-  "description": "A small module that parses a string as regular expression and returns the parsed RegExp",
+  "version": "1.0.0",
+  "description": "A module that parses a string as regular expression and returns the parsed value",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index"
+    "test": "vows --spec --isolate"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
     "parser",
     "string"
   ],
+  "devDependencies": {
+    "request": "latest",
+    "vows": "latest"
+  },
   "author": "Ionică Bizău <bizauionica@gmail.com>",
   "license": "MIT",
   "bugs": {
