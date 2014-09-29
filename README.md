@@ -20,7 +20,7 @@ console.log(RegexParser("/some words/gi")); // => /some words/gi
 
 ## Methods
 
-## `module.exports = RegexParser`
+## `module.exports = RegexParser(input)`
 Parses a string input
 
 ### Params:
