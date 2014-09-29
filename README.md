@@ -1,4 +1,4 @@
-# node-regex-parser
+# RegExp Parser
 A module that parses a string as regular expression and returns the parsed value
 
 ## Installation
@@ -15,8 +15,8 @@ To run tests, do `npm test`.
 
 ## Example
 ```js
-var RegExpParser = require("regex-parser");
-console.log(RegExpParser.parse("/some words/gi")); // => /some words/gi
+var RegexParser = require("regex-parser");
+console.log(RegexParser("/some words/gi")); // => /some words/gi
 ```
 
 ## Methods
@@ -35,6 +35,8 @@ Parses a string input
 ### `1.0.0`
  - More stable algorithm
  - Added tests
+ - Starting with this version, `parse` method is removed. The module exports a
+   function.
 
 ### `v0.2.0`
  - Changed package name into `regexp-parser`.
