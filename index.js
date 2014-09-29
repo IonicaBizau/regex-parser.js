@@ -18,7 +18,14 @@ RegExpParser.parse = function(input) {
         throw new Error("Invalid input. Input must be a string");
     }
 
+    // Parse input
     var m = input.match(/(\/?)(.+)\1([a-z]*)/i);
 
+    // Invalid flags
+    if (m[2] && !/^(?!.*?(.).*?\1)[gmixXsuUAJ]+$/.test(m[2])) {
+        return RegExp(input);
+    }
+
+    // Create the regular expression
     return new RegExp(m[2], m[3]);
 };
