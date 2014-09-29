@@ -1,8 +1,5 @@
-// Constructor
-var RegExpParser = module.exports = {};
-
 /**
- * parse
+ * RegexParser
  * Parses a string input
  *
  * @name parse
@@ -11,7 +8,7 @@ var RegExpParser = module.exports = {};
  * expression
  * @return {RegExp} The parsed regular expression
  */
-RegExpParser.parse = function(input) {
+var RegexParser = module.exports = function(input) {
 
     // Validate input
     if (typeof input !== "string") {
