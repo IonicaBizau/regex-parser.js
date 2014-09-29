@@ -11,19 +11,14 @@ var RegExpParser = module.exports = {};
  * expression
  * @return {RegExp} The parsed regular expression
  */
-RegExpParser.parse = function (input) {
+RegExpParser.parse = function(input) {
 
     // Validate input
     if (typeof input !== "string") {
         throw new Error("Invalid input. Input must be a string");
     }
 
-    // e.g. "/something/gi"
-    if (input[0] === "/") {
-        // TODO This will fail for: e.g.: "/some/thing/gi"
-        var splits = input.split("/");
-        return new RegExp(splits[1], splits[2]);
-    }
+    var m = input.match(/(\/?)(.+)\1([a-z]*)/i);
 
-    return new RegExp(input);
+    return new RegExp(m[2], m[3]);
 };
