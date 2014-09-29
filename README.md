@@ -1,5 +1,4 @@
-# RegExp Parser
-A module that parses a string as regular expression and returns the parsed value
+![RegEx Parser](http://i.imgur.com/rfXVsKw.png)
 
 ## Installation
 Run the following commands to download and install the module:
