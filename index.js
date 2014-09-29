@@ -22,7 +22,7 @@ RegExpParser.parse = function(input) {
     var m = input.match(/(\/?)(.+)\1([a-z]*)/i);
 
     // Invalid flags
-    if (m[2] && !/^(?!.*?(.).*?\1)[gmixXsuUAJ]+$/.test(m[2])) {
+    if (m[3] && !/^(?!.*?(.).*?\1)[gmixXsuUAJ]+$/.test(m[3])) {
         return RegExp(input);
     }
 
