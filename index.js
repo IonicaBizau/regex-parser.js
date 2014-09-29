@@ -2,7 +2,7 @@
  * RegexParser
  * Parses a string input
  *
- * @name parse
+ * @name RegexParser
  * @function
  * @param {String} input the string input that should be parsed as regular
  * expression
