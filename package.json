@@ -1,7 +1,7 @@
 {
   "name": "regex-parser",
-  "version": "0.2.0",
-  "description": "A small module that parses a string as regular expression and returns the parsed RegExp",
+  "version": "1.0.0",
+  "description": "A module that parses a string as regular expression and returns the parsed value",
   "main": "index.js",
   "scripts": {
     "test": "vows --spec --isolate"
