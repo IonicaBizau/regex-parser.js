@@ -34,10 +34,10 @@ suite.addBatch({
     }
   , "start with slash, but no other delimiters": {
         topic: function() {
-            this.callback(null, RegexParser("\/hello world"));
+            this.callback(null, RegexParser("/hello world"));
         }
       , "should respond with //hello world/": function(err, result) {
-            assert.equal(result.toString(), "//hello world/");
+            assert.equal(result.toString(), "/\\/hello world/");
         }
     }
   , "slash inside": {
@@ -45,7 +45,7 @@ suite.addBatch({
             this.callback(null, RegexParser("hello/world"));
         }
       , "should respond with /hello/world/": function(err, result) {
-            assert.equal(result.toString(), "/hello/world/");
+            assert.equal(result.toString(), "/hello\\/world/");
         }
     }
   , "two slashes, but no flags": {
@@ -53,7 +53,7 @@ suite.addBatch({
             this.callback(null, RegexParser("hello/wor/ld"));
         }
       , "should respond with /hello/wor/ld/": function(err, result) {
-            assert.equal(result.toString(), "/hello/wor/ld/");
+            assert.equal(result.toString(), "/hello\\/wor\\/ld/");
         }
     }
   , "simulating flags, but invalid ones": {
@@ -61,7 +61,7 @@ suite.addBatch({
             this.callback(null, RegexParser("/hello wor/ld"));
         }
       , "should respond with //hello wor/ld/": function(err, result) {
-            assert.equal(result.toString(), "//hello wor/ld/");
+            assert.equal(result.toString(), "/\\/hello wor\\/ld/");
         }
     }
   , "complex regex inside": {
