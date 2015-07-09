@@ -1,6 +1,6 @@
-var vows = require("vows")
+var RegexParser = require("../../lib/")
+  , vows = require("vows")
   , assert = require("assert")
-  , RegexParser = require("../../")
   ;
 
 const COMPLEX_REGEX = /(^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).*$)?(^(?=.*\d)(?=.*[a-z])(?=.*[@#$%^&+=]).*$)?(^(?=.*\d)(?=.*[A-Z])(?=.*[@#$%^&+=]).*$)?(^(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).*$)?/;
