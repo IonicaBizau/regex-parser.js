@@ -25,5 +25,9 @@
   "homepage": "https://github.com/IonicaBizau/node-regex-parser",
   "directories": {
     "test": "test"
-  }
+  },
+  "dependencies": {
+    "vows": "^0.8.1"
+  },
+  "devDependencies": {}
 }
