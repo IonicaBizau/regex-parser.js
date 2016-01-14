@@ -1,6 +1,6 @@
-# regex-parser [![Support this project][donate-now]][paypal-donations]
+# regex-parser [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/regex-parser.svg)](https://www.npmjs.com/package/regex-parser) [![Downloads](https://img.shields.io/npm/dt/regex-parser.svg)](https://www.npmjs.com/package/regex-parser) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-A module that parses a string as regular expression and returns the parsed value.
+> A module that parses a string as regular expression and returns the parsed value.
 
 ## Installation
 
@@ -38,6 +38,8 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`bible`](https://github.com/BibleJS/BibleApp)
 
  - [`bible.js`](https://github.com/BibleJS/bible.js)
+
+ - [`starts-with-emoji`](https://github.com/IonicaBizau/starts-with-emoji#readme)
 
  - [`statique`](https://github.com/IonicaBizau/node-statique)
 
