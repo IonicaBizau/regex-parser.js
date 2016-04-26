@@ -1,14 +1,18 @@
+
 # regex-parser [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/regex-parser.svg)](https://www.npmjs.com/package/regex-parser) [![Downloads](https://img.shields.io/npm/dt/regex-parser.svg)](https://www.npmjs.com/package/regex-parser) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > A module that parses a string as regular expression and returns the parsed value.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save regex-parser
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 // Dependencies
@@ -18,7 +22,8 @@ console.log(RegexParser("/^hi$/g"));
 // => /^hi$/g
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `RegexParser(input)`
 Parses a string input.
@@ -29,21 +34,24 @@ Parses a string input.
 #### Return
 - **RegExp** The parsed regular expression.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`bible`](https://github.com/BibleJS/BibleApp)
 
- - [`bible.js`](https://github.com/BibleJS/bible.js)
+ - [`adjust-sourcemap-loader`](https://github.com/bholloway/adjust-sourcemap-loader) (by bholloway)—Webpack loader that adjusts source maps
+ - [`bible`](https://github.com/BibleJS/BibleApp)—Read the Holy Bible via the command line.
+ - [`bible.js`](https://github.com/BibleJS/bible.js)—The Bible as a NPM module.
+ - [`leadconduit-custom`](https://github.com/activeprospect/leadconduit-integration-custom) (by Alex Wolfe)—LeadConduit custom integration
+ - [`leadconduit-generic`](https://github.com/activeprospect/leadconduit-integration-generic#readme) (by Alex Wolfe)—LeadConduit generic integration
+ - [`starts-with-emoji`](https://github.com/IonicaBizau/starts-with-emoji#readme)—Check if a string starts with an emoji.
+ - [`statique`](https://github.com/IonicaBizau/statique)—A Node.JS static server module with built-in cache options and route features.
 
- - [`starts-with-emoji`](https://github.com/IonicaBizau/starts-with-emoji#readme)
-
- - [`statique`](https://github.com/IonicaBizau/node-statique)
-
-## License
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
