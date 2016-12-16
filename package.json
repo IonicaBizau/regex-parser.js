@@ -26,7 +26,6 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
   "devDependencies": {
     "vows": "^0.8.1"
   },
