@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Parses a string input.
 
 #### Params
+
 - **String** `input`: The string input that should be parsed as regular expression.
 
 #### Return
