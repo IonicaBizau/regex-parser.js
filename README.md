@@ -82,6 +82,23 @@ However, if you get some profit from this or just want to encourage me to contin
 Thanks! :heart:
 
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`adjust-sourcemap-loader`](https://github.com/bholloway/adjust-sourcemap-loader) (by bholloway)—Webpack loader that adjusts source maps
+ - [`bible`](https://github.com/BibleJS/BibleApp)—Read the Holy Bible via the command line.
+ - [`bible.js`](https://github.com/BibleJS/bible.js)—The Bible as a NPM module.
+ - [`draper`](https://github.com/gajus/surgeon#readme) (by Gajus Kuizinas)—DOM extraction expression evaluator.
+ - [`gene-js`](https://github.com/nicosommi/gene-js) (by nicosommi)—an add utility
+ - [`leadconduit-custom`](https://github.com/activeprospect/leadconduit-integration-custom#readme) (by Alex Wolfe)—LeadConduit custom integration
+ - [`panko`](https://npmjs.com/package/panko)—A collection of functions that make panko work. This package is for plugin creators, not users.
+ - [`panko-cli`](https://npmjs.com/package/panko-cli)—A CLI-based project manager that reads from a list of separate profiles and allows various tasks to be completed.
+ - [`rendition`](https://github.com/resin-io-modules/rendition#readme)—Resin Components Component
+ - [`starts-with-emoji`](https://github.com/IonicaBizau/starts-with-emoji#readme)—Check if a string starts with an emoji.
+ - [`statique`](https://github.com/IonicaBizau/statique)—A Node.JS static server module with built-in cache options and route features.
+ - [`surgeon`](https://github.com/gajus/surgeon#readme) (by Gajus Kuizinas)—Declarative DOM extraction expression evaluator.
+ - [`twing`](https://github.com/ericmorand/twing) (by Eric MORAND)—TypeScript port of the Twig templating language.
 
 ## :scroll: License
 
