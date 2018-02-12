@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save regex-parser
+# Using npm
+npm install --save regex-parser
+
+# Using yarn
+yarn add regex-parser
 ```
 
 
@@ -34,7 +38,9 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
+
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 ## :memo: Documentation
@@ -63,6 +69,7 @@ this takes time. You can integrate and use these projects in your applications *
 
 However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:
 
+
  - Starring and sharing the projects you like :rocket:
  - [![Buy me a book][badge_amazon]][amazon]—I love books! I will remember you after years if you buy me one. :grin: :book:
  - [![PayPal][badge_paypal]][paypal-donations]—You can make one-time donations via PayPal. I'll probably buy a ~~coffee~~ tea. :tea:
@@ -71,37 +78,24 @@ However, if you get some profit from this or just want to encourage me to contin
 
     ![](https://i.imgur.com/z6OQI95.png)
 
+
 Thanks! :heart:
 
 
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
-
- - [`adjust-sourcemap-loader`](https://github.com/bholloway/adjust-sourcemap-loader) (by bholloway)—Webpack loader that adjusts source maps
- - [`bible`](https://github.com/BibleJS/BibleApp)—Read the Holy Bible via the command line.
- - [`bible.js`](https://github.com/BibleJS/bible.js)—The Bible as a NPM module.
- - [`draper`](https://github.com/gajus/surgeon#readme) (by Gajus Kuizinas)—DOM extraction expression evaluator.
- - [`gene-js`](https://github.com/nicosommi/gene-js) (by nicosommi)—a gdd utility
- - [`leadconduit-custom`](https://github.com/activeprospect/leadconduit-integration-custom#readme) (by Alex Wolfe)—LeadConduit custom integration
- - [`panko`](https://npmjs.com/package/panko)—A collection of functions that make panko work. This package is for plugin creators, not users.
- - [`panko-cli`](https://npmjs.com/package/panko-cli)—A CLI-based project manager that reads from a list of separate profiles and allows various tasks to be completed.
- - [`starts-with-emoji`](https://github.com/IonicaBizau/starts-with-emoji#readme)—Check if a string starts with an emoji.
- - [`statique`](https://github.com/IonicaBizau/statique)—A Node.JS static server module with built-in cache options and route features.
- - [`surgeon`](https://github.com/gajus/surgeon#readme) (by Gajus Kuizinas)—Declarative DOM extraction expression evaluator.
 
 ## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
-[badge_patreon]: http://ionicabizau.github.io/badges/patreon.svg
-[badge_amazon]: http://ionicabizau.github.io/badges/amazon.svg
-[badge_paypal]: http://ionicabizau.github.io/badges/paypal.svg
-[badge_paypal_donate]: http://ionicabizau.github.io/badges/paypal_donate.svg
+
+[badge_patreon]: https://ionicabizau.github.io/badges/patreon.svg
+[badge_amazon]: https://ionicabizau.github.io/badges/amazon.svg
+[badge_paypal]: https://ionicabizau.github.io/badges/paypal.svg
+[badge_paypal_donate]: https://ionicabizau.github.io/badges/paypal_donate.svg
+
 [patreon]: https://www.patreon.com/ionicabizau
 [amazon]: http://amzn.eu/hRo9sIZ
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
-[donate-now]: http://i.imgur.com/6cMbHOC.png
 
 [license]: http://showalicense.com/?fullname=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica%40gmail.com%3E%20(https%3A%2F%2Fionicabizau.net)&year=2014#license-mit
 [website]: https://ionicabizau.net
