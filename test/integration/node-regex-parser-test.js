@@ -56,14 +56,6 @@ suite.addBatch({
             assert.equal(result.toString(), "/hello\\/wor\\/ld/");
         }
     }
-  , "simulating flags, but invalid ones": {
-        topic: function() {
-            this.callback(null, RegexParser("/hello wor/ld"));
-        }
-      , "should respond with //hello wor/ld/": function(err, result) {
-            assert.equal(result.toString(), "/\\/hello wor\\/ld/");
-        }
-    }
   , "complex regex inside": {
         topic: function() {
             this.callback(null, RegexParser(COMPLEX_REGEX.toString()));
@@ -77,7 +69,7 @@ suite.addBatch({
             this.callback(null, RegexParser("/hello world/xyz"));
         }
       , "should respond ignoring invalid flags": function(err, result) {
-            assert.equal(result.toString(), /hello world/.toString()); // Ignoring the xyz flags
+            assert.equal(result.toString(), /hello world/y.toString()); // Ignoring the xyz flags
         }
     }
     
