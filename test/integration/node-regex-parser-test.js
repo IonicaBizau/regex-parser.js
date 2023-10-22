@@ -72,4 +72,13 @@ suite.addBatch({
             assert.equal(result.toString(), COMPLEX_REGEX.toString());
         }
     }
+  , "with invalid flags": {
+        topic: function() {
+            this.callback(null, RegexParser("/hello world/xyz"));
+        }
+      , "should respond ignoring invalid flags": function(err, result) {
+            assert.equal(result.toString(), /hello world/.toString()); // Ignoring the xyz flags
+        }
+    }
+    
 }).export(module);
