@@ -19,7 +19,7 @@
 
 # regex-parser
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/regex-parser.svg)](https://www.npmjs.com/package/regex-parser) [![Downloads](https://img.shields.io/npm/dt/regex-parser.svg)](https://www.npmjs.com/package/regex-parser) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/regex-parser.svg)](https://www.npmjs.com/package/regex-parser) [![Downloads](https://img.shields.io/npm/dt/regex-parser.svg)](https://www.npmjs.com/package/regex-parser) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/@johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 <a href="https://www.buymeacoffee.com/H96WwChMy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
@@ -91,6 +91,7 @@ console.log(RegexParser("/^hi$/g"));
 
 
 
+
 ## :question: Get Help
 
 There are few ways to get help:
@@ -100,6 +101,8 @@ There are few ways to get help:
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 
 
 
@@ -165,108 +168,6 @@ Thanks! :heart:
 
 
 
-
-
-
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
- - `adjust-sourcemap-loader`
- - `twing`
- - `cdk-iam-floyd`
- - `@sitecore-jss/sitecore-jss-nextjs`
- - `@sls-next/s3-static-assets`
- - `@fab/cli`
- - `@dev-spendesk/fab-cli`
- - `@dev-spendesk/cli`
- - `surgeon`
- - `leadconduit-custom`
- - `panko`
- - `rendition`
- - `iam-floyd`
- - `@x1.co/s3-static-assets`
- - `gene-js`
- - `statique`
- - `bible.js`
- - `@getjerry/s3-static-assets`
- - `automation_model`
- - `cp-hyper-react-package-ui-test-2`
- - `sklif-ui`
- - `thrive-s3-static-assets`
- - `@ofabel/twing`
- - `@serverless-stack/nextjs-core`
- - `reactofy-css-library`
- - `@bpinternal/log4bot`
- - `@xins/devtool`
- - `@dolsze/s3-static-assets`
- - `@drafted/s3-static-assets`
- - `starts-with-emoji`
- - `skyflow-js`
- - `@release-drafter/core`
- - `polywrap`
- - `@cbrzn/polywrap-cli`
- - `jaidbot`
- - `@digitalrakesh/jsui`
- - `react-ang-notifications-honey-comb-setup`
- - `neboa`
- - `medipass-release-drafter`
- - `@algolia/cli`
- - `@vasosolo/multiselectcombobox`
- - `@noelelias/twing`
- - `@alleyway/add-tradingview-alerts-tool`
- - `@namestys/polywrap`
- - `clean-split`
- - `@web3api/cli`
- - `@cbrazn/polywrap`
- - `style-guide-main`
- - `mavectra`
- - `@exdst/sitecore-jss-nextjs`
- - `resin-components`
- - `tweeter-client`
- - `release-drafter-github-app`
- - `@everything-registry/sub-chunk-2643`
- - `@sls-next-n5/s3-static-assets`
- - `@knooks/use-title`
- - `@juanaraneta/dept-central-lib-client`
- - `chatpickle`
- - `custome-package-amin`
- - `@cbrzn/polywrap`
- - `generator-regextxt`
- - `redis-expiry`
- - `tropwer`
- - `zbee-sdk`
- - `palantir`
- - `forward-email`
- - `nka-gantt-task-react`
- - `my-library-button`
- - `julien-easy-modal`
- - `bible`
- - `@mayuriachewad/pickupbiz-npm-package`
- - `@leiyulf/gantt-task-react`
- - `fast-trie-search`
- - `draper`
- - `microend-component`
- - `react-solid-gradient-picker`
- - `panko-cli`
- - `react-lightbox-pack-18support`
- - `next-deploy`
- - `now-dammit`
- - `grunt-replacex`
- - `pickupbiz-npm-package`
- - `@tonysusi/vapid`
- - `@sava-info-systems/api-maker`
- - `@dev-blinq/ai-qa-logic`
- - `@benyap/backfire`
- - `@wizmea/twing`
- - `@openpolitica/matomo-next`
- - `@planes/s3-static-assets`
- - `labeler-ui`
- - `express-file-api`
- - `in-solidarity-bot`
- - `responsis-gantt-task-react`
- - `toolbox-backend-es`
- - `virtual-tour-guide`
- - `evolas-backend`
 
 
 
